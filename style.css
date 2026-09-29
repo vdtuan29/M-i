@@ -55,6 +55,7 @@ main{
     background :#7bff55;
     width :100%;
     height :25%;
+    text-align : center ;
     display : flex ;
     align-items : flex-start ;
 }
@@ -72,9 +73,12 @@ main{
     background :#80ffff;
     width: 100%;
     height: 25%;
+    text-align : center ;
+    display : flex ;
+    align-items : flex-start ;
 }
 .oNam{
-    background: #ff55dc;
+    background: #8098ff;
     width: 50%;
     height: 100%;
 }
@@ -87,9 +91,17 @@ main{
     background :#b095ff;
     width: 100%;
     height: 24%;
+    text-align : center ;
+    display : flex ;
+    align-items : flex-start;
 }
 .oBay{
     background: #ff55dc;
+    width: 50%;
+    height: 100%;
+}
+.oTam{
+    background: #c4ff40;
     width: 50%;
     height: 100%;
 }
