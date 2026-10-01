@@ -25,13 +25,13 @@ header {
     align-items: center ;
 }
 main{
-    background :#8098ff;
+    background :#9c95ff;
     width :99%;
     height :78%;
     border:1px solid #ffeaea;
 }
 .hangMot{
-    background :#8098ff;
+    background :#eaeaff;
     width :100%;
     height :25%;
     text-align: center ;
@@ -39,35 +39,41 @@ main{
     align-items : flex-start;
 }
 .oMot{
-    background: #eeff40;
+    background: #ffffff;
     width: 49%;
     height: 98%;
     border:1px solid #ffeaea;
 }
 .sanPhamMot {
-    background: #ffeaea;
+    background: #ffbfea;
     width: 100%;
     height: 80%;
 }
+.button {
+    font-size :10px;
+    background: #ffffea;
+    border:1px solid #ffffea;
+}
 .buyNow {
-    font-size :12px;
-    background: #ff2b4a;
-    border:1px solid red;
+    background: blue;
+    border:1px solid blue ;
+    border-radius:5px;
+    color :#ffffea;
 }
 .oHai{
-    background: #ff40fc;
+    background: #ffffff;
     width: 49%;
     height: 98%;
     margin-left: auto ;
     border:1px solid #eaffff;
 }
 .sanPhamHai {
-    background: #8098ff;
+    background: #ffbfea;
     width: 100%;
     height: 80%;
 }
 .hangHai{
-    background :#8098ff;
+    background :#eaeaff;
     width :100%;
     height :25%;
     text-align : center ;
@@ -75,30 +81,30 @@ main{
     align-items : flex-start ;
 }
 .oBa{
-    background: #ff55dc;
+    background: #ffffff;
     width: 49%;
     height: 98%;
     border:1px solid #ffffea;
 }
 .sanPhamBa{
-    background: #8098ff;
+    background: #ffbfea;
     width: 100%;
     height: 80%;
 }
 .oBon{
-    background: #55ff82;
+    background: #ffffff;
     width: 49%;
     height: 98%;
     margin-left : auto ;
     border:1px solid #ffffea;
 }
 .sanPhamBon{
-    background: #ff15bd;
+    background: #ffbfea;
     width: 100%;
     height: 80%;
 }
 .hangBa{
-    background :#80ffff;
+    background :#eaeaff;
     width: 100%;
     height: 25%;
     text-align : center ;
@@ -106,17 +112,30 @@ main{
     align-items : flex-start ;
 }
 .oNam{
-    background: #8098ff;
-    width: 50%;
-    height: 100%;
+    background: #ffffff;
+    width: 49%;
+    height: 98%;
+    border:1px solid #eaeaff;
+}
+.sanPhamNam {
+    background: #ffbfea;
+    width: 100%;
+    height: 80%;
 }
 .oSau{
-    background: #ff55dc;
-    width: 50%;
-    height: 100%;
+    background: #ffffff;
+    width: 49%;
+    height: 98%;
+    border:1px solid #eaeaff;
+    margin-left:auto;
+}
+.sanPhamSau{
+    background: #ffbfea;
+    width: 100%;
+    height: 80%;
 }
 .hangBon{
-    background :#b095ff;
+    background :#eaeaff;
     width: 100%;
     height: 24%;
     text-align : center ;
@@ -124,14 +143,27 @@ main{
     align-items : flex-start;
 }
 .oBay{
-    background: #ff55dc;
-    width: 50%;
-    height: 100%;
+    background: #ffffff;
+    width: 49%;
+    height: 98%;
+    border:1px solid #eaeaff;
+}
+.sanPhamBay{
+    background: #ffbfea;
+    width: 100%;
+    height: 80%;
 }
 .oTam{
-    background: #c4ff40;
-    width: 50%;
-    height: 100%;
+    background: #ffffff;
+    width: 49%;
+    height: 98%;
+    margin-left : auto ;
+    border:1px solid #eaeaff;
+}
+.sanPhamTam{
+    background: #ffbfea;
+    width: 100%;
+    height: 80%;
 }
 footer {
     background :#baff80;
