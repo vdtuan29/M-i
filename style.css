@@ -50,7 +50,6 @@ main{
     height: 80%;
 }
 .button {
-    font-size :10px;
     background: #ffffea;
     border:1px solid #ffffea;
     width: 98%;
@@ -58,6 +57,7 @@ main{
 }
 .buyNow {
     background: blue;
+    font-size:clamp(1.5rem 4vw 3.5rem);
     border:1px solid blue ;
     border-radius:5px;
     color :#ffffea;
