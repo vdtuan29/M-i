@@ -53,12 +53,16 @@ main{
     font-size :10px;
     background: #ffffea;
     border:1px solid #ffffea;
+    width: 98%;
+    height: 18%;
 }
 .buyNow {
     background: blue;
     border:1px solid blue ;
     border-radius:5px;
     color :#ffffea;
+    width: 40%;
+    height: 90%;
 }
 .oHai{
     background: #ffffff;
