@@ -18,7 +18,7 @@ header {
     width :99%;
     height :10%;
     border:1px solid #ffeaea;
-    font-size:18px;
+    font-size: clamp (1.5rem,7cqw,4rem);
     color :#ffeaea;
     display:flex;
     justify-content: center ;
@@ -39,10 +39,10 @@ main{
     align-items : flex-start;
 }
 .oMot{
-    background: #ffffff;
+    background: #eaeaff;
     width: 49%;
     height: 98%;
-    border:1px solid #ffeaea;
+    border:1px solid #1538ff;
 }
 .sanPhamMot {
     background: #ffbfea;
@@ -62,15 +62,15 @@ main{
     border:1px solid blue ;
     border-radius:5px;
     color :#ffffea;
-    width: 40%;
+    width: 35%;
     height: 90%;
 }
 .oHai{
-    background: #ffffff;
+    background: #eaeaff;
     width: 49%;
     height: 98%;
     margin-left: auto ;
-    border:1px solid #eaffff;
+    border:1px solid #1538ff;
 }
 .sanPhamHai {
     background: #ffbfea;
@@ -86,10 +86,10 @@ main{
     align-items : flex-start ;
 }
 .oBa{
-    background: #ffffff;
+    background: #eaeaff;
     width: 49%;
     height: 98%;
-    border:1px solid #ffffea;
+    border:1px solid #1538ff;
 }
 .sanPhamBa{
     background: #ffbfea;
@@ -97,11 +97,11 @@ main{
     height: 80%;
 }
 .oBon{
-    background: #ffffff;
+    background: #eaeaff;
     width: 49%;
     height: 98%;
     margin-left : auto ;
-    border:1px solid #ffffea;
+    border:1px solid #1538ff;
 }
 .sanPhamBon{
     background: #ffbfea;
@@ -117,10 +117,10 @@ main{
     align-items : flex-start ;
 }
 .oNam{
-    background: #ffffff;
+    background: #eaeaff;
     width: 49%;
     height: 98%;
-    border:1px solid #eaeaff;
+    border:1px solid #1538ff;
 }
 .sanPhamNam {
     background: #ffbfea;
@@ -128,10 +128,10 @@ main{
     height: 80%;
 }
 .oSau{
-    background: #ffffff;
+    background: #eaeaff;
     width: 49%;
     height: 98%;
-    border:1px solid #eaeaff;
+    border:1px solid #1538ff;
     margin-left:auto;
 }
 .sanPhamSau{
@@ -148,10 +148,10 @@ main{
     align-items : flex-start;
 }
 .oBay{
-    background: #ffffff;
+    background: #eaeaff;
     width: 49%;
     height: 98%;
-    border:1px solid #eaeaff;
+    border:1px solid #1538ff;
 }
 .sanPhamBay{
     background: #ffbfea;
@@ -159,11 +159,11 @@ main{
     height: 80%;
 }
 .oTam{
-    background: #ffffff;
+    background: #eaeaff;
     width: 49%;
     height: 98%;
     margin-left : auto ;
-    border:1px solid #eaeaff;
+    border:1px solid #1538ff;
 }
 .sanPhamTam{
     background: #ffbfea;
