@@ -175,8 +175,10 @@ footer {
     width :99%;
     height :10%;
     border:1px solid #ffeaea;
-    font-size :clamp(12px, 15cqw,36px);
     display : flex ;
     justify-content : center ;
     align-items : center ;
+}
+a{
+    font-size:clamp(12px,15cqw,36px);
 }
