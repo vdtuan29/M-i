@@ -175,7 +175,7 @@ footer {
     width :99%;
     height :10%;
     border:1px solid #ffeaea;
-    font-size :16;
+    font-size :clamp(12px, 15cqw,20px);
     display : flex ;
     justify-content : center ;
     align-items : center ;
