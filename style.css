@@ -18,11 +18,18 @@ header {
     width :99%;
     height :10%;
     border:1px solid #ffeaea;
-    font-size: clamp (1.5rem,7cqw,4rem);
     color :#ffeaea;
-    display:flex;
-    justify-content: center ;
-    align-items: center ;
+}
+.lienKet{
+    background: red;
+    width: 50%;
+    height: 50%;
+    border:1px solid red;
+}
+.lienKet a{
+    margin-left :0;
+    color: #ffeaea;
+    font-size:15px;
 }
 main{
     background :#9c95ff;
@@ -178,6 +185,7 @@ footer {
     display : flex ;
     justify-content : center ;
     align-items : center ;
+    container-type : inline-size ;
 }
 a{
     font-size:clamp(12px,15cqw,36px);
