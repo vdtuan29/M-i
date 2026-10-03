@@ -109,16 +109,33 @@
             <a href="https://www.facebook.com/share/1HgJS4tAyg/">
                 Facebook
                 </a>
-                <!-- Đoạn code sửa lỗi hiển thị lượt xem -->
+                
+<!-- Bộ đếm lượt xem bằng JavaScript -->
 <div style="font-family: sans-serif; display: inline-block; vertical-align: middle;">
     <span style="font-size: 16px; color: #333; margin-right: 5px;">Số lượt xem:</span>
-    
-    <!-- Thay 'dtuan29_shop_2026' bằng bất kỳ chữ nào khác nếu bạn muốn đặt lại tên -->
-    <img src="https://glic.io/dtuan29_shop_2026/badge.svg" alt="Lượt xem" style="vertical-align: middle;">
-    
+    <span id="view-count" style="font-size: 16px; font-weight: bold; color: #ff4757;">Đang tải...</span>
 </div>
 
-</div>
+<script>
+    function loadPageViews() {
+        // Tên định danh độc nhất dựa theo web của bạn
+        const siteId = "dtuan29_github_io_counter"; 
+        
+        fetch(`https://getloli.com{siteId}`)
+            .then(response => response.json())
+            .then(data => {
+                // Đổ số lượt xem thực tế vào thẻ span
+                document.getElementById("view-count").innerText = data.value;
+            })
+            .catch(error => {
+                console.error("Lỗi tải lượt xem:", error);
+                document.getElementById("view-count").innerText = "1";
+            });
+    }
+
+    // Tự động chạy khi trang tải xong
+    window.onload = loadPageViews;
+</script>
 
         </footer>
         </div>
